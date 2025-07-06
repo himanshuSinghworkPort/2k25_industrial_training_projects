@@ -1,0 +1,88 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": ["Paris", "London", "Berlin", "Madrid"],
+    "answer": 0,
+    "time_limit": 15
+  },
+  {
+    "question": "2 + 2 = ?",
+    "options": ["3", "4", "5", "2"],
+    "answer": 1,
+    "time_limit": 10
+  },
+  {
+    "question": "Which language is this project written in?",
+    "options": ["Java", "C++", "Python", "Ruby"],
+    "answer": 2,
+    "time_limit": 12
+  },
+  {
+    "question": "Which of the following creates a generator object?",
+    "options": [
+      "[x*x for x in range(5)]",
+      "(x*x for x in range(5))",
+      "{x*x for x in range(5)}",
+      "dict((x, x*x) for x in range(5))"
+    ],
+    "answer": 1,
+    "time_limit": 15
+  },
+  {
+    "question": "What is the output of: a, *b, c = [1, 2, 3, 4, 5]\\nprint(b)",
+    "options": ["[1, 2, 3, 4]", "[2, 3, 4]", "(2, 3, 4)", "([2, 3, 4],)"],
+    "answer": 1,
+    "time_limit": 15
+  },
+  {
+    "question": "What does the @staticmethod decorator do?",
+    "options": [
+      "Binds method to the class, not the instance",
+      "Allows method to access instance data",
+      "Automatically converts method to class method",
+      "Makes method run in a separate thread"
+    ],
+    "answer": 0,
+    "time_limit": 15
+  },
+  {
+    "question": "Which method must a class implement to make its instances iterable?",
+    "options": ["__getitem__", "__iter__", "__call__", "__next__"],
+    "answer": 1,
+    "time_limit": 15
+  },
+  {
+    "question": "How can you define a read-only property in a class?",
+    "options": [
+      "Use @property without a setter",
+      "Define __get__ only in a descriptor",
+      "Use readonly keyword",
+      "Both A and B"
+    ],
+    "answer": 3,
+    "time_limit": 15
+  },
+  {
+    "question": "What’s the difference between is and ==?",
+    "options": [
+      "== checks identity, is checks equality",
+      "is checks identity, == checks equality",
+      "No difference",
+      "is works only for numbers"
+    ],
+    "answer": 1,
+    "time_limit": 15
+  },
+  {
+    "question": "Which exception is raised by int(\\\"xyz\\\")?",
+    "options": ["ValueError", "TypeError", "SyntaxError", "KeyError"],
+    "answer": 0,
+    "time_limit": 15
+  },
+  {
+    "question": "What does this slice return?: s = \\\"abcdef\\\"\\ns[1:5:2]",
+    "options": ["bdf", "bd", "ace", "bcde"],
+    "answer": 1,
+    "time_limit": 15
+  }
+]
